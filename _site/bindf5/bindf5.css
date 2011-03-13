@@ -1,0 +1,19 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline;}:focus{outline:0;}body{line-height:1;color:black;background:white;}ol,ul{list-style:none;}table{border-collapse:separate;border-spacing:0;}caption,th,td{text-align:left;font-weight:normal;}blockquote:before,blockquote:after,q:before,q:after{content:"";}blockquote,q{quotes:"" "";}.clear{clear:both;}
+@font-face { font-family: 'VegurRegular'; src: url('fonts/Vegur-R_0500-webfont.eot'); src: local('Myriad Pro'), url('fonts/Vegur-R_0500-webfont.woff') format('woff'), url('fonts/Vegur-R_0500-webfont.ttf') format('truetype'), url('fonts/Vegur-R_0500-webfont.svg#webfont') format('svg'); font-weight: normal; font-style: normal; }
+@font-face {font-family: 'MuseoSans500';src: url('fonts/museosans_500-webfont.eot');src: local('☺'), url('fonts/museosans_500-webfont.woff') format('woff'), url('fonts/museosans_500-webfont.ttf') format('truetype'), url('fonts/museosans_500-webfont.svg#webfontDdSDsGrM') format('svg');font-weight: normal;font-style: normal;}
+body { font:16px/20px 'VegurRegular', Arial, Sans-serif; background:#f0f0f0; color:#999; width:940px; margin:20px auto; }
+a:link, a:visited { color:#DA8273; }
+em { font-style:italic; }
+h1 { font:80px/80px 'MuseoSans500', Arial, Sans-serif; color:#CDAE9A; }
+h2 { font-size:32px; line-height:40px; color:#6A8B81; font-style:italic; margin:0 0 20px; font-weight:bold;}
+h3 { color:#CDAE9A; font-size:20px; margin:0 0 10px; }
+p { margin:0 0 10px; }
+ul { margin:0 0 10px 20px; list-style:disc; }
+ol { margin:0 0 10px 20px; list-style:decimal; }
+img { float:right; display:inline; margin:20px 20px 0 0; }
+#cols { margin:0 0 0 -20px; }
+.col { width:260px; padding:20px ; font-size:12px; float:left; display:inline; margin:0 0 50px 20px; position:relative; background:#EBEAE5; -moz-border-radius: 20px; -webkit-border-radius: 20px; border-radius: 20px; min-height:180px; }
+.colspan { width:580px; padding:20px; }
+.col img { position:absolute; right:20px; top:16px; margin:0; }
+hr { clear:both; border:0; height:1px; background:#CDAE9A; margin:0; }
+.footer { padding:20px 0; font-size:12px; }

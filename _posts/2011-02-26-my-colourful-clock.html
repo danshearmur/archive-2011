@@ -1,0 +1,27 @@
+--- 
+layout: post
+title: My colourful clock
+published: true
+thumb: clock.png
+blurb: Inspired by this <a href="http://thecolourclock.co.uk/" title="The Colour Clock" target="_blank">clock</a>, I figured I'd hack something similar together in HTML5.
+---
+<p><a href="http://dansclock.heroku.com/"><img src="/imgs/posts/clock.jpg"></a></p>
+<p>This week I found a really sexy <a href="http://thecolourclock.co.uk/" title="The Colour Clock" target="_blank">clock</a> on twitter. 
+It uses flash to represent time as a &quot;hexadecimal colour value&quot;. I spent a good while staring at this pretty page, trying 
+to decipher how exactly it calculated the colour representation.</p>
+<h2>Imitation is the sincerest form of flattery (I hope!)</h2>
+<p>I really liked the way the clock worked and was inspired to see if I could do something similar in the browser. I started out
+with the trusty <a href="http://html5boilerplate.com/">HTML5Boilerplate</a>, and got to work playing with converting numbers from decimal 
+to hex and back.</p>
+<p>I think <a href="http://www.lookatjack.com/">Jack&#39;s</a> <a href="http://thecolourclock.co.uk/">clock</a> converts the hours, minutes 
+and seconds into an approximation of red, green and blue respectively, then tweens between these colours.
+I decided to make my colours a litte different. I took the number of seconds from the start of the day (12:00 am), converted that into a 
+hexadecimal number and then added the leading zeros. I added a quick setInterval loop to change the background colour of the body tag every second 
+and animated this change using the <a href="https://github.com/jquery/jquery-color">jQuery Color plugin</a>.</p>
+<h2>Modernizr makes HTML5/CSS3 useable</h2>
+<p>So this got me thinking that a nicer solution for animating the background would be <a href="http://www.w3.org/TR/css3-transitions/">CSS3 transisitions</a>.
+Modernizr made it really easy to only load the Color plugin when a browser wasn&#39;t capable of CSS3 transisitions. I also used it to set the background of 
+the middle box to rgba(), and fall back to a png background image.</p>
+<h2>Heroku rules!</h2>
+<p>I&#39;ve been eyeing up <a href="http://heroku.com/">heroku</a> for a long while now itching to test it out. So I wrapped the page up in a sinatra app, committed to git and pushed it to heroku!</p>
+<h2><a href="http://dansclock.heroku.com/">So here you have it!</a></h2>
