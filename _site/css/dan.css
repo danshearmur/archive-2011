@@ -218,10 +218,10 @@ section { position:relative; }
 
 /* showcase */
 .showcase { padding:0 0 0 208px; margin:0; }
-.showcase li { width:240px; float:left; display:inline; margin:0 0 16px 16px; }
+.showcase li { width:240px; float:left; display:inline; margin:0 0 16px 16px; background:#fff; }
 .showcase a, .screenshot, .padding { display:block; border:8px solid #fff; height:171px; -webkit-box-shadow:0px 0px 4px rgba(153, 153, 153, 0.55); -moz-box-shadow:0px 0px 4px rgba(153, 153, 153, 0.55); box-shadow:0px 0px 4px rgba(153, 153, 153, 0.55); }
 .back { display:block; position:absolute; top:0; right:0; padding:0 16px; line-height:48px; }
-.screenshot, .padding { width:480px; height:366px; float:left; display:inline; margin:0 0 16px 224px; }
+.screenshot, .padding { width:480px; height:366px; float:left; display:inline; margin:0 0 16px 224px; background:#fff; }
 .info { width:209px; float:left; display:inline; margin:0 0 0 16px; }
 .info ul { margin:0 0 8px 16px; }
 .info li { margin:0 0 8px 0; }
