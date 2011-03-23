@@ -1,4 +1,4 @@
-require 'rack/jekyll'
+require "rack/jekyll"
 
 # this is a middleware class
 class AddHeader
@@ -21,4 +21,5 @@ end
 # add this middleware
 use AddHeader
 # run your app
-run Rack::Jekykll.new
+
+run Rack::Jekyll.new
