@@ -153,12 +153,12 @@ body, select, input, textarea {
   color: #444;
   /* Set your base font here, to apply evenly */
   /* font-family: Georgia, serif;  */
-  font:12px/16px 'DroidSerif', Times, "Times New Roman", serif; 
+  font:12px/16px 'DroidSerifRegular', Times, "Times New Roman", serif; 
 }
 
 /* Headers (h1, h2, etc) have no default font-size or margin; define those yourself */
 h1, h2, h3, h4, h5, h6 { font-weight: bold; }
-h1 { font:24px/32px Matiz; color:#3071CB; background:rgba(255, 255, 255, 0.72); padding:8px 16px; margin:16px 0; text-shadow:1px 1px 1px #999999; /*filter:dropshadow(color=#999999, offx=1, offy=1);*/ }
+h1 { font:24px/32px 'MatizRegular'; color:#3071CB; background:rgba(255, 255, 255, 0.72); padding:8px 16px; margin:16px 0; text-shadow:1px 1px 1px #999999; /*filter:dropshadow(color=#999999, offx=1, offy=1);*/ }
 .no-rgba h1 { background:url('/imgs/bg-h1.png'); }
 h2 { font-size:16px; line-height:16px; color:#B9B988; margin:16px 0 8px; }
 p { margin-bottom:8px; }
