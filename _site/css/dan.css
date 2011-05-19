@@ -188,6 +188,7 @@ dt, dd { float:left; display:inline; width:56px; }
 dd { width:173px; }
 dd a { text-decoration:none; }
 dd a:hover { text-decoration:underline; }
+dt { clear:left; }
 #extras { width:130px; height:240px; float:left; display:inline; position:relative; }
 #social { position:absolute; bottom:0; left:0; width:138px; margin:0 0 0 -8px; height:61px; }
 #social li { float:left; display:inline; margin:0 0 0 8px; }
@@ -277,10 +278,13 @@ footer p { float:left; display:inline; width:33%; margin:0; }
 
 @media all and (orientation:portrait) {
   /* Style adjustments for portrait mode goes here */
-  #card { float:none; display:block; -webkit-box-shadow:none; box-shadow:none; transform:none; -webkit-transform:none; }
-  #contact { background:0; width:auto; height:auto; margin:0; padding:0; }
+  #container { margin:0; padding:16px; width:auto; }
+  header { padding:0; }
+  #card { background:0; width:auto; height:auto; box-shadow:none; -webkit-box-shadow:none; float:none; display:block; -webkit-box-shadow:none; box-shadow:none; transform:none; -webkit-transform:none; box-shadow:none; -webkit-box-shadow:none; }
+  #contact { background:0; float:none; width:auto; height:auto; margin:0; padding:0; box-shadow:none; -webkit-box-shadow:none; }
   #name { margin: 8px 0; }
   #tag-line { margin:0 0 8px; }
+  #social { display:none; }
   nav { width:auto; float:none; text-align:left; padding:0; margin:0 0 8px; display:block; }
 }
 
