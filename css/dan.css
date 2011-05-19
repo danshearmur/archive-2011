@@ -277,7 +277,11 @@ footer p { float:left; display:inline; width:33%; margin:0; }
 
 @media all and (orientation:portrait) {
   /* Style adjustments for portrait mode goes here */
-
+  #card { float:none; display:block; -webkit-box-shadow:none; box-shadow:none; transform:none; -webkit-transform:none; }
+  #contact { background:0; width:auto; height:auto; margin:0; padding:0; }
+  #name { margin: 8px 0; }
+  #tag-line { margin:0 0 8px; }
+  nav { width:auto; float:none; text-align:left; padding:0; margin:0 0 8px; display:block; }
 }
 
 @media all and (orientation:landscape) {
