@@ -5,6 +5,8 @@ published: true
 thumb: newsite.png
 blurb: It’s been a long time coming! For years I have been in need of a portfolio site.
 ---
+![new portfolio](/imgs/posts/newsite-large.png)
+
 It’s been a long time coming! For years I have been in need of a
 portfolio site. After quite a few design iterations and even more false
 starts, it’s finally here! I took the opportunity to bring this blog
