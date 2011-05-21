@@ -30,8 +30,8 @@ hosting web fonts - due to the mime-types needed - so I ended up just
 hosting them elsewhere.
 
 ##Things I’d like to change in the future (time permitting)
-A more responsive web design using media queries
-Write some interesting blog posts and possibly foster some actual
+* A more responsive web design using media queries
+* Write some interesting blog posts and possibly foster some actual
 conversation...
 
 [It’s all here on github too...](https://github.com/danshearmur/website/)
